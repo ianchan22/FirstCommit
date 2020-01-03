@@ -27,14 +27,14 @@ function UserOverview(props) {
         // <Container style={pageStyle}>
         //     <Container xs="3">
         <Row>
-            {/* <Col> */}
+            <Col>'                 '</Col>
             <Col xs="4" sm="4">
                 <div style={ovStyle}><UserInfo id={props.id} /></div>
             </Col>
             <Col xs="6" sm="4"> <div style={ovStyle}> <UserGallery id={props.id} /> </div> </Col>
         </Row>
-            // {/* </Container>
-            //  <Container xs="auto" > */}
+        // {/* </Container>
+        //  <Container xs="auto" > */}
 
     );
 }
